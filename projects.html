@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>George Nicholl | Projects</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body class="projects-page">
+    <section id="services-header">
+      <div class="container">
+        <nav>
+          <div class="logo"><h1>George Nicholl</h1></div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Me</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+          </ul>
+          <div class="menu-btn">☰</div>
+        </nav>
+
+        <div class="header-content">
+          <h1>Projects</h1>
+        </div>
+      </div>
+    </section>
+
+    <section id="services-section">
+      <div class="container">
+        <div class="service">
+          <div class="content">
+            <h1>Secure Login System (PHP & MYSQL)</h1>
+            <p>
+              A secure user authentication system built with PHP and MySQL, designed 
+              to follow secure coding best practices. Implements session-based access 
+              control, prepared SQL statements, directory separation, and server-side 
+              validation to protect against common web vulnerabilities.
+            </p>
+
+            <div class="project-actions">
+              <a href="https://github.com/GeorgeNicholl01/Secure-Login-System" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Source Code
+              </a>
+
+              <a href="PDF's/Secure Login Documentation.pdf" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Documentation
+              </a>
+            </div>
+          </div>
+
+          <img src="img/securelogin.jpeg" alt="Secure Login System Screenshot" />
+        </div>
+      </div>
+
+        <div class="service">
+          <div class="content">
+            <h1>Cyber Secure Website (Final Year Project)</h1>
+            <p>
+              A browser-based cybersecurity awareness platform focused on addressing the 
+              human factor in organisational security. Developed as a final-year project, 
+              it combines research, system design, and practical implementation to educate 
+              users on common cyber risks through interactive modules, assessments, and evaluation.
+            </p>
+
+            <div class="project-actions">
+              <a href="https://georgenicholl01.github.io/Cyber-Secure/" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Live Demo
+              </a>
+
+              <a href="https://github.com/GeorgeNicholl01/Cyber-Secure" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Source Code
+              </a>
+
+              <a href="PDF's/Cyber Secure Website Documentation.pdf" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Documentation
+              </a>
+            </div>
+          </div>
+
+          <img src="img/CyberSecure.png" alt="Cyber Secure Screenshot" />
+        </div>
+
+        <div class="service">
+          <div class="content">
+            <h1>Asteroids Game (Lua & LOVE2D)</h1>
+            <p>
+              A classic arcade-style Asteroids game developed using Lua and the LÖVE2D framework. 
+              This project demonstrates core programming fundamentals including game loops, 
+              collision detection, state management, and modular code structure, with a strong 
+              focus on clean logic and maintainability.
+            </p>
+
+            <div class="project-actions">
+              <a href="https://github.com/GeorgeNicholl01/Asteroids-LOVE2D" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Source Code
+              </a>
+
+              <a href="PDF's/Asteroids Documentation.pdf" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Documentation
+              </a>
+            </div>
+          </div>
+
+          <img src="./img/asteroids.png" alt="Asteroids Game Screenshot" />
+        </div>
+
+        <div class="service">
+          <div class="content">
+            <h1>Music Player (JavaScript)</h1>
+            <p>
+              A browser-based music player built using vanilla HTML, CSS, and JavaScript. 
+              Features include custom playback controls, track selection, and responsive UI 
+              design, showcasing front-end fundamentals such as DOM manipulation, event 
+              handling, and user-focused interface design.
+            </p>
+
+            <div class="project-actions">
+              <a href="https://georgenicholl01.github.io/Music-Player/" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Live Demo
+              </a>
+
+              <a href="https://github.com/GeorgeNicholl01/Music-Player" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Source Code
+              </a>
+
+              <a href="PDF's/Music Player Documentation.pdf" target="_blank" rel="noopener noreferrer" class="primary-btn">
+                Documentation
+              </a>
+            </div>
+          </div>
+
+          <img src="img/musicplayer.png" alt="Music Player Screenshot" />
+        </div>
+    </section>
+
+     <footer class="container">
+      <ul class="footerlinks">
+        <li><p>LinkedIn: <a href="https://www.linkedin.com/in/george-nicholl-92921b287/" 
+          target="_blank" rel="noopener noreferrer">
+          George Nicholl
+          </a>
+        </p>
+      </li>
+    </ul>
+      
+
+      <h1 class="logo">George Nicholl</h1>
+
+      <p>Email: stgeorgenicholl@gmail.com</p>
+    </footer>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

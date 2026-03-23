@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>George Nicholl | Home</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section id="header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <h1>George Nicholl</h1>
+          </div>
+
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About Me</a></li>
+            <li><a href="./resume.html">Resume</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+          </ul>
+
+          <div class="menu-btn">☰</div>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container about-layout">
+        <div class="about-content">
+          <h1>Hello</h1>
+          <p>
+            I am a passionate and hardworking IT enthusiast seeking to improve
+            and gain experience within the computer and technology industry.
+            Motivated and determined to learn from those with more experience to
+            maximise personal growth and long-term career development.
+          </p>
+        </div>
+
+        <div class="about-img">
+          <img src="./img/Graduation.jpeg" alt="George Nicholl graduation photo" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="container">
+      <ul class="footerlinks">
+        <li><p>LinkedIn: <a href="https://www.linkedin.com/in/george-nicholl-92921b287/" 
+          target="_blank" rel="noopener noreferrer">
+          George Nicholl
+          </a>
+        </p>
+      </li>
+    </ul>
+      
+
+      <h1 class="logo">George Nicholl</h1>
+
+      <p>Email: stgeorgenicholl@gmail.com</p>
+    </footer>
+
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", function () {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
